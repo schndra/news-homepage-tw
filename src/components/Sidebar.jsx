@@ -5,7 +5,7 @@ import { links } from "../data";
 const Sidebar = () => {
   return (
     <>
-      <aside className="fixed grid  grid-flow-row gap-y-4 top-0 right-0 bg-nOffWhite w-[325px] h-full z-10 ">
+      <aside className="fixed grid  grid-flow-row gap-y-4 top-0 right-0 bg-nOffWhite w-[325px] h-full z-10 md:hidden ">
         <button className="fixed top-8 right-8">
           <img src={CloseButton} alt="close-btn" />
         </button>
