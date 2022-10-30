@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/images/logo.svg";
 import IconMenu from "../assets/images/icon-menu.svg";
 import { links } from "../data";
-console.log(links);
+import { useGlobalContext } from "../context";
 
 const Navbar = () => {
+  const { openSidebar } = useGlobalContext();
   return (
     <nav>
       <div className="w-vw mx-auto md:flex md:items-center md:justify-between xl:w-mFixed">
         <div className="w-vw p-4 mx-auto flex justify-between items-center ">
           <img src={Logo} alt="logo" />
-          <button className="md:hidden">
+          <button className="md:hidden" onClick={openSidebar}>
             <img src={IconMenu} alt="logo" />
           </button>
         </div>
