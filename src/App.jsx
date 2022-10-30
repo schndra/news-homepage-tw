@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Home from "./components/Home";
+import { AppContext } from "./context";
 
 function App() {
+  const data = useContext(AppContext);
+  console.log(data);
   return (
     <>
       <Home />
