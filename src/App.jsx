@@ -1,9 +1,9 @@
 import { useContext, useState } from "react";
 import Home from "./components/Home";
-import { AppContext } from "./context";
+import { useGlobalContext } from "./context";
 
 function App() {
-  const data = useContext(AppContext);
+  const data = useGlobalContext();
   console.log(data);
   return (
     <>
