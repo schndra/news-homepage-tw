@@ -25,7 +25,7 @@ module.exports = {
         body: ["Inter", "sans-serif"],
       },
       width: {
-        vw: "90vw",
+        vw: "95vw",
         fixed: "450px",
         mFixed: "1440px",
       },
