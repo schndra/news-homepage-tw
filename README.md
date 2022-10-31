@@ -10,8 +10,16 @@ Users should be able to:
 
 ### Screenshot
 
+## Desktop Preview
+
 ![](./screenshots/desktoppreview.png)
+
+## Mobile Preview
+
 ![](./screenshots/mobilepreview.png)
+
+## Sidebar Preview
+
 ![](./screenshots/sidebarpreview.png)
 
 ### Links
