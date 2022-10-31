@@ -18,8 +18,8 @@ const Home = () => {
       <Navbar />
       <Sidebar />
 
-      <main className="grid grid-cols-1 mt-4 w-vw mx-auto xl:w-mFixed gap-y-16">
-        <section>
+      <main className="grid grid-cols-1  mt-4 w-vw mx-auto xl:w-mFixed gap-y-16 lg:grid-cols-3 gap-x-8">
+        <section className="lg:col-span-2">
           <div>
             <img
               src={Web3MobileImg}
@@ -31,17 +31,21 @@ const Home = () => {
               alt="web3DesktopmImg"
               className="hidden md:block"
             />
-            <h1 className="text-5xl font-extrabold  text-nVeryDarkBlue mt-7">
-              The Bright Future of Web 3.0?
-            </h1>
-            <p className="text-[15px] text-nDarkGrayishBlue mt-5 ">
-              We dive into the next evolution of the web that claims to put the
-              power of the platforms back into the hands of the people. But is
-              it really fulfilling its promise?
-            </p>
-            <button className="uppercase mt-[31px] text-nOffWhite bg-primarySoftRed p-4 w-2/4 font-bold tracking-widest hover:bg-nVeryDarkBlue hover:text-nGrayishBlue ">
-              read more
-            </button>
+            <div className="lg:flex lg:items-center">
+              <h1 className="text-5xl font-extrabold  text-nVeryDarkBlue mt-7">
+                The Bright Future of Web 3.0?
+              </h1>
+              <div>
+                <p className="text-[15px] text-nDarkGrayishBlue mt-5 ">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <button className="uppercase mt-[31px] text-nOffWhite bg-primarySoftRed p-4 w-2/4 lg:w-2/5 font-bold tracking-widest hover:bg-nVeryDarkBlue hover:text-nGrayishBlue ">
+                  read more
+                </button>
+              </div>
+            </div>
           </div>
         </section>
         <section>
@@ -70,7 +74,7 @@ const Home = () => {
             </ul>
           </div>
         </section>
-        <section>
+        <section className="lg:flex lg:items-center lg:col-span-3">
           <div className="flex mb-8 gap-4 items-center  ">
             <div className="h-32 w-24 ">
               <img
