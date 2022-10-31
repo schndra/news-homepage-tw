@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="w-vw mx-auto md:flex md:items-center md:justify-between xl:w-mFixed">
-        <div className="w-vw p-4 mx-auto flex justify-between items-center ">
+        <div className="w-vw py-4 mx-auto flex justify-between items-center ">
           <img src={Logo} alt="logo" />
           <button className="md:hidden" onClick={openSidebar}>
             <img src={IconMenu} alt="logo" />

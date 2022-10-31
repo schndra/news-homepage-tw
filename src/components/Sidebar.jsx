@@ -11,7 +11,7 @@ const Sidebar = () => {
         className={`${
           isSidebarOpen
             ? "fixed grid  grid-flow-row gap-y-4 top-0 right-0 bg-nOffWhite w-[325px] h-full z-10 md:hidden "
-            : "invisible"
+            : "hidden"
         }`}
       >
         <button className="fixed top-8 right-8" onClick={closeSidebar}>
