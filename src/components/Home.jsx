@@ -85,7 +85,7 @@ const Home = () => {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-nGrayishBlue mb-2">01</h1>
-              <h2 className="text-nVeryDarkBlue font-extrabold mb-2">
+              <h2 className="text-nVeryDarkBlue font-extrabold mb-2 hover:text-primarySoftRed hover:cursor-pointer">
                 Reviving Retro PCs
               </h2>
               <p className="text-nDarkGrayishBlue text-[15px]">
@@ -103,7 +103,7 @@ const Home = () => {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-nGrayishBlue mb-2">02</h1>
-              <h2 className="text-nVeryDarkBlue font-extrabold mb-2">
+              <h2 className="text-nVeryDarkBlue font-extrabold mb-2 hover:text-primarySoftRed hover:cursor-pointer">
                 Top 10 Laptops of 2022
               </h2>
               <p className="text-nDarkGrayishBlue text-[15px]">
@@ -122,7 +122,7 @@ const Home = () => {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-nGrayishBlue mb-2">03</h1>
-              <h2 className="text-nVeryDarkBlue font-extrabold mb-2">
+              <h2 className="text-nVeryDarkBlue font-extrabold mb-2 hover:text-primarySoftRed hover:cursor-pointer">
                 The Growth of Gaming
               </h2>
               <p className="text-nDarkGrayishBlue text-[15px]">
